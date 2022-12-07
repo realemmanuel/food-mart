@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import {
   MenuIcon,
   SearchIcon,
@@ -12,13 +11,6 @@ const Header = () => {
         {/* Top nav */}
         <div className='flex items-center bg-rg_blue p-1 flex-grow py-2'>
           <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
-            {/* <Image 
-                src='https://links.papareact.com/f90'
-                width={150}
-                height={40}
-                objectFit='contain'
-                className='cursor-pointer'
-            /> */}
 
             <img src="https://api.logo.com/api/v2/images?format=webp&logo=logo_717ae50f-8c52-437f-9db3-45e2658be5b7&width=1000&primary=%23ffffff&secondary=%23ffffff&accent=%23ffffff&background=transparent&tertiary=%23ffffff&fit=contain&u=1670399832" className='h-10 px-4 cursor-pointer object-contain' alt="Logo" />
         </div>
@@ -52,7 +44,9 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_blue-light text-white text-sm space-x-9 p-2 pl-6 justify-center lg:space-x-9'>
+        <div className='flex items-center bg-rg_blue
+-light text-white text-sm space-x-9 p-2 pl-6 justify-
+center lg:space-x-9'>
             <p className='link flex items-center'>
               <MenuIcon className='h-6 mr-1' />
             </p>

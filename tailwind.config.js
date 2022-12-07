@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         rg_blue: {
-          light: "#5F8D4E",
-          DEFAULT: "#285430",
+          light: "#D23369",
+          DEFAULT: "#FB2576",
         },
       },
     },

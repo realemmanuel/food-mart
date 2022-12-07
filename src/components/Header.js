@@ -24,8 +24,8 @@ const Header = () => {
         </div>
 
         {/* Search */}
-        <div className='hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer bg-green-700 hover:bg-green-800'>
-          <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" />
+        <div className='hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer bg-yellow-200 hover:bg-yellow-300'>
+          <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" placeholder='Search for Items '/>
 
           <SearchIcon className='h-12 p-4' />
         </div>
@@ -44,7 +44,7 @@ const Header = () => {
           </div>
 
           <div className='relative link flex items-center'>
-            <span className='absolute top-0 right-0 md:right-10 h-4 w-4 bg-green-700 text-center rounded-full text-black font-bold'>0</span>
+            <span className='absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-200 text-center rounded-full text-black font-bold'>0</span>
             <ShoppingCartIcon className='h-10'/>
             <p className='hidden md:inline font-extrabold md:text-sm mt-2 '>Cart</p>
           </div>
@@ -52,22 +52,20 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_blue-light text-white text-sm space-x-3 p-2 pl-6 justify-center lg:space-x-9'>
+        <div className='flex items-center bg-rg_blue-light text-white text-sm space-x-9 p-2 pl-6 justify-center lg:space-x-9'>
             <p className='link flex items-center'>
               <MenuIcon className='h-6 mr-1' />
-              All 
             </p>
-            <p className='link'>Groceries</p>
-            <p className='link'>Ethnic Foods</p>
-            <p className='link'>Oil</p>
-            <p className='link'>Herbal</p>
+            <p className='link'>Products</p>
+            <p className='link'>About us</p>
+            <p className='link'>Contact us</p>
             <p className='link hidden sm:inline-flex'>Fish, Meat & Snail</p>
             <p className='link hidden sm:inline-flex'>Health & Beauty </p>
             <p className='link hidden lg:inline-flex'>Food & Groceries </p>
             <p className='link hidden lg:inline-flex'>Snack </p>
             <p className='link hidden lg:inline-flex'>Can Foods </p>
             <p className='link hidden lg:inline-flex'>Yam Flour </p>
-            <p className='link hidden lg:inline-flex'>Snail </p>
+            <p className='link hidden lg:inline-flex'>Snail </p> 
         </div>
     </header>
   )

@@ -1,13 +1,10 @@
 {
-  "homepage": "http://taiwoemmanuel.github.io/rgafrocarribeanfood",
   "name": "with-redux-toolkit",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "v1",

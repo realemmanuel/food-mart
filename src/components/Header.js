@@ -44,19 +44,18 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-9 p-2 pl-6 justify-
-center lg:space-x-9'>
+        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9'>
             <p className='link flex items-center'>
               <MenuIcon className='h-6 mr-1' />
+              All
             </p>
-            <p className='link'>Products</p>
-            <p className='link'>About us</p>
-            <p className='link'>Contact us</p>
+            <p className='link'>Groceries</p>
+            <p className='link hidden sm:inline-flex'>Ethnic Foods</p>
+            <p className='link'>Oil</p>
+            <p className='link'>Herbal</p>
             <p className='link hidden sm:inline-flex'>Fish, Meat & Snail</p>
-            <p className='link hidden sm:inline-flex'>Health & Beauty </p>
-            <p className='link hidden lg:inline-flex'>Food & Groceries </p>
-            <p className='link hidden lg:inline-flex'>Snack </p>
-            <p className='link hidden lg:inline-flex'>Can Foods </p>
+            <p className='link'>Foods </p>
+            <p className='link'>Snack </p>
             <p className='link hidden lg:inline-flex'>Yam Flour </p>
             <p className='link hidden lg:inline-flex'>Snail </p> 
         </div>

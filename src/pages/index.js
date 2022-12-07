@@ -8,7 +8,6 @@ export default function Home() {
         <title>R&G AFROCARRIBEAN FOODS - WE PRIDE OURSELVES IN SELLING UNIQUE AND QUALITY FOOD PRODUCTS</title>
       </Head>
 
-      <h1>HEY PAPAFAM!</h1>
       <Header />
     </div>
   );

@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rg_blue: {
+        rg_pink: {
           light: "#D23369",
           DEFAULT: "#FB2576",
         },

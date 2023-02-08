@@ -32,8 +32,9 @@ const Product = ({ id, title, price, description, category, image  }) => {
         <div className='mb-5'>
             <Currency quantity={price} currency='GBP' />
         </div>
-
+        
         <button className='mt-auto button'>Add to Cart </button>
+        <button className='mt-3 view'>View Product</button>
     </div>
   )
 }

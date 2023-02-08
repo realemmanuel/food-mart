@@ -10,4 +10,9 @@
     .button {
         @apply p-2 text-xs md:text-sm bg-gradient-to-b from-red-400 to-red-400 border border-red-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-red-500 text-white ;
     }
+
+    .view {
+        @apply p-2 text-xs md:text-sm bg-gradient-to-b from-yellow-500 to-yellow-700 border border-red-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-red-400 active:from-yellow-500 text-white ;
+    }
+    
 }

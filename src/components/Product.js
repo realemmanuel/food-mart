@@ -29,7 +29,7 @@ const Product = ({ id, title, price, description, category, image  }) => {
         
         <p className='text-sx mt-2 my-2 line-clamp-3'>{description}</p>
 
-        <div>
+        <div className='mb-5'>
             <Currency quantity={price} currency='GBP' />
         </div>
 

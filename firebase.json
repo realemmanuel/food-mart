@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build/rgafrocarribeanfoods",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

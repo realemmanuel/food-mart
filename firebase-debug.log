@@ -1,0 +1,70 @@
+[debug] [2023-02-09T07:00:27.367Z] ----------------------------------------------------------------------
+[debug] [2023-02-09T07:00:27.370Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-02-09T07:00:27.371Z] CLI Version:   11.16.1
+[debug] [2023-02-09T07:00:27.371Z] Platform:      darwin
+[debug] [2023-02-09T07:00:27.371Z] Node Version:  v16.17.1
+[debug] [2023-02-09T07:00:27.373Z] Time:          Thu Feb 09 2023 08:00:27 GMT+0100 (West Africa Standard Time)
+[debug] [2023-02-09T07:00:27.374Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-09T07:00:27.458Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-09T07:00:27.458Z] > authorizing via signed-in user (emmanueltaiwo027@gmail.com)
+[debug] [2023-02-09T07:00:27.458Z] [iam] checking project rgafrocarribeanfoods for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-09T07:00:27.461Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions [none]
+[debug] [2023-02-09T07:00:27.461Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions x-goog-quota-user=projects/rgafrocarribeanfoods
+[debug] [2023-02-09T07:00:27.461Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-09T07:00:36.282Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions 200
+[debug] [2023-02-09T07:00:36.283Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-09T07:00:36.284Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rgafrocarribeanfoods [none]
+[debug] [2023-02-09T07:01:06.288Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/rgafrocarribeanfoods
+[debug] [2023-02-09T07:01:11.301Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-09T07:02:03.402Z] ----------------------------------------------------------------------
+[debug] [2023-02-09T07:02:03.405Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-02-09T07:02:03.406Z] CLI Version:   11.16.1
+[debug] [2023-02-09T07:02:03.406Z] Platform:      darwin
+[debug] [2023-02-09T07:02:03.407Z] Node Version:  v16.17.1
+[debug] [2023-02-09T07:02:03.408Z] Time:          Thu Feb 09 2023 08:02:03 GMT+0100 (West Africa Standard Time)
+[debug] [2023-02-09T07:02:03.409Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-09T07:02:03.529Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-09T07:02:03.530Z] > authorizing via signed-in user (emmanueltaiwo027@gmail.com)
+[debug] [2023-02-09T07:02:03.530Z] [iam] checking project rgafrocarribeanfoods for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-09T07:02:03.534Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions [none]
+[debug] [2023-02-09T07:02:03.534Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions x-goog-quota-user=projects/rgafrocarribeanfoods
+[debug] [2023-02-09T07:02:03.534Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-09T07:03:18.563Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions
+[debug] [2023-02-09T07:03:18.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rgafrocarribeanfoods [none]
+[debug] [2023-02-09T07:03:48.570Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/rgafrocarribeanfoods
+[debug] [2023-02-09T07:03:53.582Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-09T07:05:23.967Z] ----------------------------------------------------------------------
+[debug] [2023-02-09T07:05:23.970Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-02-09T07:05:23.971Z] CLI Version:   11.16.1
+[debug] [2023-02-09T07:05:23.971Z] Platform:      darwin
+[debug] [2023-02-09T07:05:23.971Z] Node Version:  v16.17.1
+[debug] [2023-02-09T07:05:23.973Z] Time:          Thu Feb 09 2023 08:05:23 GMT+0100 (West Africa Standard Time)
+[debug] [2023-02-09T07:05:23.973Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-09T07:05:24.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-09T07:05:24.058Z] > authorizing via signed-in user (emmanueltaiwo027@gmail.com)
+[debug] [2023-02-09T07:05:24.059Z] [iam] checking project rgafrocarribeanfoods for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-09T07:05:24.062Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions [none]
+[debug] [2023-02-09T07:05:24.062Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions x-goog-quota-user=projects/rgafrocarribeanfoods
+[debug] [2023-02-09T07:05:24.062Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-09T07:05:54.088Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/rgafrocarribeanfoods:testIamPermissions
+[debug] [2023-02-09T07:05:54.090Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rgafrocarribeanfoods [none]
+[debug] [2023-02-09T07:06:24.094Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/rgafrocarribeanfoods
+[debug] [2023-02-09T07:06:29.104Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.

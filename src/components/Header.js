@@ -5,10 +5,14 @@ import {
   ShoppingCartIcon,
 } from '@heroicons/react/outline'
 import { signIn, signOut, useSession } from 'next-auth/react'
+import { useRouter } from 'next/router'
+import { useSelector } from 'react-redux'
+import { selectItems } from '../slices/basketSlice'
 
 const Header = () => {
   const { data: session } = useSession();
-
+  const router = useRouter();
+  const items = useSelector(selectItems);
 
 
   return (
@@ -17,7 +21,10 @@ const Header = () => {
         <div className='flex items-center bg-rg_pink p-1 flex-grow py-2'>
           <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
 
-            <img src="https://api.logo.com/api/v2/images?format=webp&logo=logo_717ae50f-8c52-437f-9db3-45e2658be5b7&width=1000&primary=%23ffffff&secondary=%23ffffff&accent=%23ffffff&background=transparent&tertiary=%23ffffff&fit=contain&u=1670399832" className='h-10 px-4 cursor-pointer object-contain' alt="Logo" />
+            <img 
+            onClick={() => router.push('/')}
+            src="https://api.logo.com/api/v2/images?format=webp&logo=logo_717ae50f-8c52-437f-9db3-45e2658be5b7&width=1000&primary=%23ffffff&secondary=%23ffffff&accent=%23ffffff&background=transparent&tertiary=%23ffffff&fit=contain&u=1670399832" 
+            className='h-10 px-4 cursor-pointer object-contain' alt="Logo" />
         </div>
 
         {/* Search */}
@@ -42,8 +49,8 @@ const Header = () => {
             <p  className='font-extrabold md:text-sm'>Orders </p>
           </div>
 
-          <div className='relative link flex items-center'>
-            <span className='absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-200 text-center rounded-full text-black font-bold'>0</span>
+          <div onClick={() => router.push('/checkout')} className='relative link flex items-center'>
+            <span className='absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-200 text-center rounded-full text-black font-bold'>{items.length}</span>
             <ShoppingCartIcon className='h-10'/>
             <p className='hidden md:inline font-extrabold md:text-sm mt-2 '>Cart</p>
           </div>

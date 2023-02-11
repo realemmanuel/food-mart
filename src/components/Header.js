@@ -58,14 +58,14 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9'>
+        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9' onClick={() => router.push('/products/all-products')}>
             <p className='link flex items-center'>
               <MenuIcon className='h-6 mr-1' />
               All
             </p>
-            <p className='link'>Groceries</p>
-            <p className='link hidden sm:inline-flex'>Ethnic Foods</p>
-            <p className='link'>Oil</p>
+            <p onClick={() => router.push('/products/groceries/groceries')} className='link'>Groceries</p>
+            <p className='link hidden sm:inline-flex' onClick={() => router.push('/products/ethnic-foods/ethnic-foods')}>Ethnic Foods</p>
+            <p className='link' onClick={() => router.push('/products/groceries/oil')}>Oil</p>
             <p className='link'>Herbal</p>
             <p className='link hidden sm:inline-flex'>Fish, Meat & Snail</p>
             <p className='link'>Foods </p>

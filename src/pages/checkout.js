@@ -1,6 +1,8 @@
+import Head from "next/head";
 import React from 'react'
 import { useSelector } from 'react-redux'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import { selectItems, selectTotal } from '../slices/basketSlice'
 import CheckoutProduct from '../components/CheckoutProduct'
 import Currency from 'react-currency-formatter'
@@ -13,13 +15,16 @@ const Checkout = () => {
 
   return (
     <div className='bg-gray-100'>
+        <Head>
+        <title>R&G AFROCARRIBEAN FOODS - CHECKOUT</title>
+      </Head>
         <Header />
 
         <main className='lg:flex max-w-screen-2xl mx-auto'>
             {/* Left */}
             <div className='flex-grow m-5 shadow-sm'>
             <img
-            src="https://links.papareact.com/ikj"
+            src="https://img.freepik.com/free-vector/checkout-supermarket-composition_1284-73059.jpg?size=626&ext=jpg"
              width={1020}
              height={250}
              objectfit='contain'
@@ -66,6 +71,7 @@ const Checkout = () => {
                 )}
             </div>
         </main>
+        <Footer />
     </div>
   )
 }

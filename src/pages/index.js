@@ -38,3 +38,7 @@ export async function getServerSideProps(context) {
 }
 
 // https://fakestoreapi.com/products/
+//npx json-server -p 3500 -w database/ProductDb.json 
+//  http://localhost:3500/products
+//https://papaya-tarsier-eb6327.netlify.app/database/ProductDb.json
+//https://taiwoemmmanuel.github.io/product-database/database/ProductDb.json

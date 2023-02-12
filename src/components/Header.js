@@ -58,7 +58,7 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9' onClick={() => router.push('/products/all-products')}>
+        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
             <p className='link flex items-center'>
               <MenuIcon className='h-6 mr-1' />
               All

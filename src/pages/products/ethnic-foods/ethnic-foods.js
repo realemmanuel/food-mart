@@ -15,8 +15,8 @@ const ethnicFoods = () => {
     },
     {
       id: 2,
-      image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-corn-starch-1-300x300.jpg',
-      title: 'Frozen Corn Starch / OGI',
+      image: 'https://www.adesfoods.co.uk/media/catalog/category/Ethnic_Food.jpg',
+      title: 'Ethnic Foods',
     },
   ]
 
@@ -34,7 +34,7 @@ const ethnicFoods = () => {
             <img src={ethnicFoodsList[0].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{ethnicFoodsList[0].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto pb-9 border-b' onClick={() => router.push('./corn-starch')}>
+         <div className='mt-9 cursor-pointer mx-auto pb-9 border-b' onClick={() => router.push('./ethnic-food')}>
             <img src={ethnicFoodsList[1].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{ethnicFoodsList[1].title}</p>
          </div>

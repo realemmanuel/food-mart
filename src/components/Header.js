@@ -17,6 +17,7 @@ const Header = () => {
 
   return (
     <header>
+      <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1675244115/contentservice/weblove.gif_HkcIzhw3o.gif" alt="" />
         {/* Top nav */}
         <div className='flex items-center bg-rg_pink p-1 flex-grow py-2'>
           <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
@@ -59,19 +60,18 @@ const Header = () => {
 
         {/* Bottom nav */}
         <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
-            <p className='link flex items-center'>
+            <p className='link flex items-center' onClick={() => router.push('/products/all-products')}>
               <MenuIcon className='h-6 mr-1' />
               All
             </p>
-            <p onClick={() => router.push('/products/groceries/groceries')} className='link'>Groceries</p>
+            <p onClick={() =>router.push('/products/groceries/groceries')} className='link'>Groceries</p>
             <p className='link hidden sm:inline-flex' onClick={() => router.push('/products/ethnic-foods/ethnic-foods')}>Ethnic Foods</p>
             <p className='link' onClick={() => router.push('/products/groceries/oil')}>Oil</p>
-            <p className='link'>Herbal</p>
+            <p className='link' onClick={() => router.push('/products/groceries/herbal')}>Herbal</p>
             <p className='link hidden sm:inline-flex'>Fish, Meat & Snail</p>
-            <p className='link'>Foods </p>
-            <p className='link'>Snack </p>
-            <p className='link hidden lg:inline-flex'>Yam Flour </p>
-            <p className='link hidden lg:inline-flex'>Snail </p> 
+            <p className='link' onClick={() => router.push('/products/groceries/foods')}>Foods </p>
+            <p className='link' onClick={() => router.push('/products/groceries/snacks')}>Snack </p>
+            <p className='link hidden lg:inline-flex' onClick={() => router.push('/products/groceries/oil')}>Flour </p>
         </div>
     </header>
   )

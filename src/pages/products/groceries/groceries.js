@@ -64,40 +64,36 @@ const groceries = () => {
 
       <h1 className="text-3xl ml-5 mt-5 border-b pb-4">Groceries</h1>
 
-    <main className="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 p-5 ">
-        <div className='mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('./canfood')}>
-            <img src={groceriesProduct[0].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[0].title}</p>
-         </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./spices-seasonings')}>
+    <main className="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-1 p-5 ">
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./spices-seasonings')}>
             <img src={groceriesProduct[1].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[1].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./cooking-ingredients')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./cooking-ingredients')}>
             <img src={groceriesProduct[2].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[2].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./oil')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./oil')}>
             <img src={groceriesProduct[3].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[3].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b p-9' onClick={() => router.push('./beverages')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b p-9' onClick={() => router.push('./beverages')}>
             <img src={groceriesProduct[4].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[4].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./rice-pasta-beans')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./rice-pasta-beans')}>
             <img src={groceriesProduct[5].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[5].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./drinks')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./drinks')}>
             <img src={groceriesProduct[6].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[6].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./garri')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./garri')}>
             <img src={groceriesProduct[7].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[7].title}</p>
          </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./snacks')}>
+         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./snacks')}>
             <img src={groceriesProduct[8].image} width={200} height={200}/>
             <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[8].title}</p>
          </div>

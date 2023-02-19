@@ -1,11 +1,11 @@
 import Head from "next/head";
 import React from 'react'
 import Header from "../../../components/Header";
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import Footer from "../../../components/Footer";
 
 const groceries = () => {
-    const router = useRouter();
+    // const router = useRouter();
     
     const groceriesProduct = [
         {

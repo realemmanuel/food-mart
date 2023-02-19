@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header>
-      <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1675244115/contentservice/weblove.gif_HkcIzhw3o.gif" alt="" />
+      <img src="https://i.ibb.co/xCGRp0w/R-AND-G.gif" alt="" />
         {/* Top nav */}
         <div className='flex items-center bg-rg_pink p-1 flex-grow py-2'>
           <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
@@ -67,11 +67,11 @@ const Header = () => {
             <p onClick={() =>router.push('/products/groceries/groceries')} className='link'>Groceries</p>
             <p className='link hidden sm:inline-flex' onClick={() => router.push('/products/ethnic-foods/ethnic-foods')}>Ethnic Foods</p>
             <p className='link' onClick={() => router.push('/products/groceries/oil')}>Oil</p>
-            <p className='link' onClick={() => router.push('/products/groceries/herbal')}>Herbal</p>
-            <p className='link hidden sm:inline-flex'>Fish, Meat & Snail</p>
+            <p className='link hidden sm:inline-flex' onClick={() => router.push('/products/fish-meat-snail/fish-meat-snail')}>Fish, Meat & Snail</p>
             <p className='link' onClick={() => router.push('/products/groceries/foods')}>Foods </p>
             <p className='link' onClick={() => router.push('/products/groceries/snacks')}>Snack </p>
-            <p className='link hidden lg:inline-flex' onClick={() => router.push('/products/groceries/oil')}>Flour </p>
+            <p className='link' onClick={() => router.push('/products/groceries/drinks')}>Drinks </p>
+            <p className='link hidden lg:inline-flex' onClick={() => router.push('/products/flour/flour')}>Flour </p>
         </div>
     </header>
   )

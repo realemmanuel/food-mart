@@ -8,6 +8,7 @@ import { signIn, signOut, useSession } from 'next-auth/react'
 import { useRouter } from 'next/router'
 import { useSelector } from 'react-redux'
 import { selectItems } from '../slices/basketSlice'
+import Link from 'next/link'
 
 const Header = () => {
   const { data: session } = useSession();
@@ -30,7 +31,7 @@ const Header = () => {
 
         {/* Search */}
         <div className='hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer bg-yellow-200 hover:bg-yellow-300'>
-          <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" placeholder='Search for Items '/>
+          <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" placeholder='Search for Items' />
 
           <SearchIcon className='h-12 p-4' />
         </div>
@@ -60,26 +61,44 @@ const Header = () => {
 
         {/* Bottom nav */}
         <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
-            <p className='link flex items-center sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/all-products')}>
+        <Link href="/products/all-products">
+            <p className='link flex items-center sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>
               <MenuIcon className='h-6 mr-1' />
               All
             </p>
+        </Link>
 
-            <p onClick={() =>router.push('/products/groceries/groceries')} className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Groceries</p>
+            <Link href="/products/groceries/groceries">
+              <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Groceries</p>
+            </Link>
+            
+          <Link href="/products/ethnic-foods/ethnic-foods">
+            <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Ethnic Foods</p>
+          </Link>
 
-            <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/ethnic-foods/ethnic-foods')}>Ethnic Foods</p>
+          <Link href="/products/groceries/oil">
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Oil</p>
+          </Link>
 
-            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/groceries/oil')}>Oil</p>
+          <Link href="/products/fish-meat-snail/fish-meat-snail">
+            <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Fish, Meat & Snail</p>
+          </Link>
 
-            <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/fish-meat-snail/fish-meat-snail')}>Fish, Meat & Snail</p>
+          <Link href="/products/groceries/foods">
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Foods </p>
+          </Link>
 
-            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/food/foods')}>Foods </p>
+          <Link href="/products/groceries/snacks">
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Snack </p>
+            </Link>
 
-            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/groceries/snacks')}>Snack </p>
-
-            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/groceries/drinks')}>Drinks </p>
-
-            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/flour/flour')}>Flour </p>
+          <Link href="/products/groceries/drinks">
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Drinks </p>
+            </Link>
+    
+          <Link href="/products/flour/flour">
+            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Flour </p>
+          </Link>
         </div>
     </header>
   )

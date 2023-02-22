@@ -761,6 +761,11 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
+"@stripe/stripe-js@^1.47.0":
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.47.0.tgz#48626a2e43302330aa826ce498a2d9761db4053d"
+  integrity sha512-jKSClqEIKS2MbPCXlSsseDSZyJ3dVrfUrYMz5LBY1o9iS2tfKbpTZACt8r2g+xyQozI+uHr76pVTyFsmBKA4Mg==
+
 "@swc/helpers@0.4.14":
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
@@ -846,6 +851,11 @@
   version "15.3.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
   integrity sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==
+
+"@types/node@>=8.1.0":
+  version "18.14.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.0.tgz#94c47b9217bbac49d4a67a967fdcdeed89ebb7d0"
+  integrity sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==
 
 "@types/qs@*":
   version "6.9.6"
@@ -3305,6 +3315,13 @@ pumpify@^2.0.0:
     inherits "^2.0.3"
     pump "^3.0.0"
 
+qs@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
+  integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
+  dependencies:
+    side-channel "^1.0.4"
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -3669,6 +3686,14 @@ strip-outer@^1.0.1:
   integrity sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
   dependencies:
     escape-string-regexp "^1.0.2"
+
+stripe@^11.11.0:
+  version "11.11.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-11.11.0.tgz#9817317a9709a44ec4548dfa18f33f58beb8040d"
+  integrity sha512-CT8TZJ+bUaMmqCOljHdKwHTWym0bscrCHrKmvK2KoTaz/9gDIzG+lXTJOFUOb3K7Jwaoaori4yEVzOgA7U46+g==
+  dependencies:
+    "@types/node" ">=8.1.0"
+    qs "^6.11.0"
 
 stubs@^3.0.0:
   version "3.0.0"

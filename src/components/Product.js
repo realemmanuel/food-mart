@@ -38,11 +38,11 @@ const Product = ({ id, title, price, description, category, image  }) => {
 
         <h4 className='my-3'>{title}</h4>
         
-        <div className='flex'>
+        {/* <div className='flex'>
             {Array(rating).fill().map((_, i) => (
-                <StarIcon className='h-5 text-yellow-500' />
+                <StarIcon key={Math.random()} className='h-5 text-yellow-500' />
             )) }
-        </div>
+        </div> */}
         
         <p className='text-sx mt-2 my-2 line-clamp-3'>{description}</p>
 

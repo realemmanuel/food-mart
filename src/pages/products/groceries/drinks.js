@@ -164,7 +164,7 @@ const drinks = () => {
         <span className="text-rg_pink-light">Drinks</span>
       </p>
 
-      <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Groceries</h1>
+      <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Drinks</h1>
 
         <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200 p-5">
             <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>

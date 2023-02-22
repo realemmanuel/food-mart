@@ -32,7 +32,7 @@ const flour = () => {
         },
         {
             id: 5,
-            image: 'https://www.rosemacsales.com/assets/images/no_image.pngg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
             title: '1.5kg Ijebu gari',
             price: '£0.00',
         },

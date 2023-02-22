@@ -65,7 +65,7 @@ const groceries = () => {
 
       <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Groceries</h1>
 
-    <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
+     <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[0].image} height={200} width={200} objectfit='contain' alt='product image' />
@@ -121,7 +121,7 @@ const groceries = () => {
             <h4 className='my-3'>{groceriesProduct[7].title}</h4>
             <button className='mt-3 view' onClick={() => router.push('./snacks')}>View Product</button>
         </div>
-    </main>
+    </main> 
 
 
     <Footer />

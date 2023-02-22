@@ -58,35 +58,35 @@ const snacks = () => {
 
       <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
           <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
-              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>snacks</p>
               <img src={snackProducts[0].image} height={200} width={200} objectfit='contain' alt='product image' />
               <h4 className='my-3'>{snackProducts[0].title}</h4>
               <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
           </div>
 
           <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
-              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>snacks</p>
               <img src={snackProducts[1].image} height={200} width={200} objectfit='contain' alt='product image' />
               <h4 className='my-3'>{snackProducts[1].title}</h4>
               <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
           </div>
 
           <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
-              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>snacks</p>
               <img src={snackProducts[2].image} height={200} width={200} objectfit='contain' alt='product image' />
               <h4 className='my-3'>{snackProducts[2].title}</h4>
               <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
           </div>
 
           <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
-              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>snacks</p>
               <img src={snackProducts[3].image} height={200} width={200} objectfit='contain' alt='product image' />
               <h4 className='my-3'>{snackProducts[3].title}</h4>
               <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
           </div>
 
           <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
-              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+              <p className='absolute top-2 right-2 text-xs italic text-gray-400'>snacks</p>
               <img src={snackProducts[4].image} height={200} width={200} objectfit='contain' alt='product image' />
               <h4 className='my-3'>{snackProducts[4].title}</h4>
               <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>

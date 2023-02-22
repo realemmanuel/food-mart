@@ -42,34 +42,45 @@ const oil = () => {
       </Head>
       <Header />
 
-      <h1 className="text-3xl ml-5 mt-5 border-b pb-4">Oil</h1>
-      <p className="text-1xl ml-5 mt-5 border-b pb-4 cursor-pointer">groceries &gt; oil</p>
+      <p className='ml-5 italic mt-5 text-xs cursor-pointer'>
+        <span>Home</span>
+        <span className="text-gray-500"> {`>`} </span>
+        <span className="text-rg_pink-light">Groceries</span>
+        <span className="text-gray-500"> {`>`} </span>
+        <span className="text-rg_pink-light">Oil</span>
+      </p>
 
-      <main className="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 p-5 ">
-      <div className='mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('./canfood')}>
-            <img src={oilProducts[0].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[0].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[0].price}</p>
-            <button className='button'>{oilProducts[0].buttonText}</button>
-         </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('./canfood')}>
-            <img src={oilProducts[1].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[1].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[1].price}</p>
-            <button className='button'>{oilProducts[1].buttonText}</button>
-         </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('./canfood')}>
-            <img src={oilProducts[2].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[2].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[2].price}</p>
-            <button className='button'>{oilProducts[2].buttonText}</button>
-         </div>
-         <div className='mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('./canfood')}>
-            <img src={oilProducts[3].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[3].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{oilProducts[3].price}</p>
-            <button className='button'>{oilProducts[3].buttonText}</button>
-         </div>
+      <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Oil</h1>
+
+
+      <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+                <img src={oilProducts[0].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{oilProducts[0].title}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+             </div>
+
+             <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+                <img src={oilProducts[1].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{oilProducts[1].title}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+             </div>
+
+             <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+                <img src={oilProducts[2].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{oilProducts[2].title}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+             </div>
+
+             <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>oil</p>
+                <img src={oilProducts[3].image} height={500} width={500} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{oilProducts[3].title}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+             </div>
       </main>
 
       <Footer />
@@ -78,3 +89,4 @@ const oil = () => {
 }
 
 export default oil
+

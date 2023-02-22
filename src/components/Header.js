@@ -59,19 +59,27 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 p-2 pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
-            <p className='link flex items-center' onClick={() => router.push('/products/all-products')}>
+        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
+            <p className='link flex items-center sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/all-products')}>
               <MenuIcon className='h-6 mr-1' />
               All
             </p>
-            <p onClick={() =>router.push('/products/groceries/groceries')} className='link'>Groceries</p>
-            <p className='link hidden sm:inline-flex' onClick={() => router.push('/products/ethnic-foods/ethnic-foods')}>Ethnic Foods</p>
-            <p className='link' onClick={() => router.push('/products/groceries/oil')}>Oil</p>
-            <p className='link hidden sm:inline-flex' onClick={() => router.push('/products/fish-meat-snail/fish-meat-snail')}>Fish, Meat & Snail</p>
-            <p className='link' onClick={() => router.push('/products/groceries/foods')}>Foods </p>
-            <p className='link' onClick={() => router.push('/products/groceries/snacks')}>Snack </p>
-            <p className='link' onClick={() => router.push('/products/groceries/drinks')}>Drinks </p>
-            <p className='link hidden lg:inline-flex' onClick={() => router.push('/products/flour/flour')}>Flour </p>
+
+            <p onClick={() =>router.push('/products/groceries/groceries')} className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Groceries</p>
+
+            <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/ethnic-foods/ethnic-foods')}>Ethnic Foods</p>
+
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/groceries/oil')}>Oil</p>
+
+            <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/fish-meat-snail/fish-meat-snail')}>Fish, Meat & Snail</p>
+
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/food/foods')}>Foods </p>
+
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/groceries/snacks')}>Snack </p>
+
+            <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/groceries/drinks')}>Drinks </p>
+
+            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200' onClick={() => router.push('/products/flour/flour')}>Flour </p>
         </div>
     </header>
   )

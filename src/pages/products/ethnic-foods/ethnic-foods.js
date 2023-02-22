@@ -10,13 +10,51 @@ const ethnicFoods = () => {
   const ethnicFoodsList = [
     {
       id: 1,
-      image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/driedproducts-150x150.jpg',
-      title: 'Dried Vegetables',
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Dried ugba',
+      price: '£0.00',
     },
     {
       id: 2,
-      image: 'https://www.adesfoods.co.uk/media/catalog/category/Ethnic_Food.jpg',
-      title: 'Ethnic Foods',
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Abacha',
+      price: '£0.00',
+    },
+    {
+      id: 3,
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Achi',
+      price: '£0.00',
+    },
+    {
+      id: 4,
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Alligator pepper',
+      price: '£0.00',
+    },
+    {
+      id: 5,
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Pepper soup spice',
+      price: '£0.00',
+    },
+    {
+      id: 6,
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Dried Utazi',
+      price: '£0.00',
+    },
+    {
+      id: 7,
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Dried Okazi',
+      price: '£0.00',
+    },
+    {
+      id: 8,
+      image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+      title: 'Dried bitter leaf',
+      price: '£0.00',
     },
   ]
 
@@ -27,17 +65,79 @@ const ethnicFoods = () => {
         </Head>
         <Header />
 
-        <h1 className="text-3xl ml-5 mt-5 border-b pb-4">Ethnic Foods</h1>
+        <p className='ml-5 italic mt-5 text-xs cursor-pointer'>
+        <span>Home</span>
+        <span className="text-gray-500"> {`>`} </span>
+        <span className="text-rg_pink-light">Groceries</span>
+      </p>
 
-        <main className="grid xl:grid-cols-5 md:grid-cols-2 sm:grid-cols-1 gap-1">
-        <div className='mt-9 cursor-pointer mx-auto pb-9 border-b' onClick={() => router.push('./dried-vegetables')}>
-            <img src={ethnicFoodsList[0].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{ethnicFoodsList[0].title}</p>
-         </div>
-         <div className='mt-9 cursor-pointer mx-auto pb-9 border-b' onClick={() => router.push('./ethnic-food')}>
-            <img src={ethnicFoodsList[1].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{ethnicFoodsList[1].title}</p>
-         </div>
+      <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Ethnic Foods</h1>
+
+
+        <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[0].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[0].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[0].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[1].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[1].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[0].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[2].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[2].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[2].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[3].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[3].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[3].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[4].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[4].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[4].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[5].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[5].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[5].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[6].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[6].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[6].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>ethnic foods</p>
+                <img src={ethnicFoodsList[7].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{ethnicFoodsList[7].title}</h4>
+                <h4 className='my-3 font-extrabold'>{ethnicFoodsList[7].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
         </main>
 
         <Footer />

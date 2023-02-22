@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     
-<footer class="bg-gray-400 dark:bg-gray-900 mt-9">
+<footer class="bg-neutral-800 dark:bg-gray-900 mt-9">
     <div class="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
             <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-gray-400">Company</h2>
@@ -71,8 +71,8 @@ const Footer = () => {
             </ul>
         </div>
     </div>
-    <div class="px-4 py-6 bg-gray-600 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">R&G</a>. All Rights Reserved.
+    <div class="px-4 py-6 bg-neutral-600 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-100 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">R&G</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">

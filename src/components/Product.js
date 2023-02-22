@@ -31,7 +31,7 @@ const Product = ({ id, title, price, description, category, image  }) => {
 
 
   return (
-    <div className='relative flex flex-col m-5 bg-white z-30 p-10'>
+    <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
         <p className='absolute top-2 right-2 text-xs italic text-gray-400'>{category}</p>
 
         <img src={image} height={200} width={200} objectfit='contain' alt='product image' />

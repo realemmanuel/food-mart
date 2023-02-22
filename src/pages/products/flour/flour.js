@@ -8,180 +8,268 @@ const flour = () => {
     const flourProducts = [
         {
             id: 1,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/08/rg-afro-caribbean-yamflour_4kg-300x300.jpg',
-            title: 'Yam flour (elubo dudu) 4kg',
-            price: '£6.99',
-            buttonText: 'Read More',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '1.5kg yam flour',
+            price: '£0.00',
         },
         {
             id: 2,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/08/rg-afro-caribbean-yamflour_5kg-300x300.jpg',
-            title: 'Yam flour (elubo dudu) 5kg',
-            price: '£7.99',
-            buttonText: 'Read More',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '2kg yam flour',
+            price: '£0.00',
         },
         {
             id: 3,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/08/rg-afro-caribbean-yamflour_20kg-300x300.jpg',
-            title: 'Yam flour (elubo dudu) 20kg',
-            price: '£31.99',
-            buttonText: 'Read More',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '5kg yam flour',
+            price: '£0.00',
         },
         {
             id: 4,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/08/rg-afro-caribbean-foods-elubo-garri-elubo-ogede4kg-300x300.jpg',
-            title: 'Plantain Flour – Elubo Ogede – 5kg',
-            price: '£8.99',
-            buttonText: 'Read More',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '20kg yam flour',
+            price: '£0.00',
         },
         {
             id: 5,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-fufu-flour-e1596043393500.jpg',
-            title: 'Fufu Flour - 20kg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.pngg',
+            title: '1.5kg Ijebu gari',
             price: '£0.00',
-            buttonText: 'Read More',
         },
         {
             id: 6,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-fufu-flour-e1596043393500.jpg',
-            title: 'Fufu flour 10kg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '2kg Ijebu gari',
             price: '£0.00',
-            buttonText: 'Read More',
         },
         {
             id: 7,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-fufu-flour-e1596043393500.jpg',
-            title: 'Fufu flour 5kg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '5kg Ijebu gari',
             price: '£0.00',
-            buttonText: 'Read More',
         },
         {
             id: 8,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-fufu-flour-e1596043393500.jpg',
-            title: 'Fufu flour 4kg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '20kg Ijebu gari',
             price: '£0.00',
-            buttonText: 'Read More',
         },
         {
             id: 9,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-elubo-lafu4kg-300x300.jpg',
-            title: 'Elubo Lafu / Cassava flour – 4 Kg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: 'Ijebu gari',
             price: '£0.00',
-            buttonText: 'Read More',
         },
         {
             id: 10,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-elubo-lafu5kg-300x300.jpg',
-            title: 'Elubo Lafu / Cassava flour – 5 Kg',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '2kg Nigeria plantain flour ',
             price: '£0.00',
-            buttonText: 'Read More',
         },
         {
             id: 11,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-elubo-lafu10kg-300x300.jpg',
-            title: 'Yam flour (elubo dudu) 4kg',
-            price: '£6.99',
-            buttonText: 'Read More',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '5kg Nigeria plantain flour',
+            price: '£0.00',
         },
         {
             id: 12,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/08/rg-afro-caribbean-yamflour_4kg-300x300.jpg',
-            title: 'Elubo Lafu / Cassava flour – 10 Kg',
-            price: '£6.99',
-            buttonText: 'Read More',
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '20kg Ijebu gari',
+            price: '£0.00',
         },
         {
             id: 13,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-elubo-lafu-20kg-300x300.jpg',
-            title: 'Elubo Lafu / Cassava flour – 20 Kg',
-            price: '£6.99',
-            buttonText: 'Read More',
-        }
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: 'Ijebu gari',
+            price: '£0.00',
+        },
+        {
+            id: 14,
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '5kg pounded yam',
+            price: '£0.00',
+        },
+        {
+            id: 15,
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '10kg pounded yam',
+            price: '£0.00',
+        },
+        {
+            id: 16,
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '2kg cassava flour (Lafun)',
+            price: '£0.00',
+        },
+        {
+            id: 17,
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '5kg cassava flour (Lafun)',
+            price: '£0.00',
+        },
+        {
+            id: 18,
+            image: 'https://www.rosemacsales.com/assets/images/no_image.png',
+            title: '20kg cassava flour (Lafun)',
+            price: '£0.00',
+        },
     ]
   return (
     <div>
         <Header />
-        <h1 className="text-3xl ml-5 mt-5 border-b pb-4">Flour</h1>
+        <p className='ml-5 italic mt-5 text-xs cursor-pointer'>
+        <span>Home</span>
+        <span className="text-gray-500"> {`>`} </span>
+        <span className="text-rg_pink-light">Flour</span>
+      </p>
 
-        <main className="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 p-5 ">
-        <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[0].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[0].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[0].price}</p>
-            <button className='button'>{flourProducts[0].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[1].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[1].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[1].price}</p>
-            <button className='button'>{flourProducts[1].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[2].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[2].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[2].price}</p>
-            <button className='button'>{flourProducts[2].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[3].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[3].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[3].price}</p>
-            <button className='button'>{flourProducts[3].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[4].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[4].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[4].price}</p>
-            <button className='button'>{flourProducts[4].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[5].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[5].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[5].price}</p>
-            <button className='button'>{flourProducts[5].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[6].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[6].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[6].price}</p>
-            <button className='button'>{flourProducts[6].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[7].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[7].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[7].price}</p>
-            <button className='button'>{flourProducts[7].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[8].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[8].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[8].price}</p>
-            <button className='button'>{flourProducts[8].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[9].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[9].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[9].price}</p>
-            <button className='button'>{flourProducts[9].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[10].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[10].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[10].price}</p>
-            <button className='button'>{flourProducts[10].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[11].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[11].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[11].price}</p>
-            <button className='button'>{flourProducts[11].buttonText}</button>
-         </div>
-         <div className='bg-gray-100 mt-9 cursor-pointer mx-auto border-b pb-9 hover:border-black p-5' onClick={() => router.push('/snacks/groundnut')}>
-            <img src={flourProducts[12].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[12].title}</p>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{flourProducts[12].price}</p>
-            <button className='button'>{flourProducts[12].buttonText}</button>
-         </div>
+      <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Flour</h1>
+
+        <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[0].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[0].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[0].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[1].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[1].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[1].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[2].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[2].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[2].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[3].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[3].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[3].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[4].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[4].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[4].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[5].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[5].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[5].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[6].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[6].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[6].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[7].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[7].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[7].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[8].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[8].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[8].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[9].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[9].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[9].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[10].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[10].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[10].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[11].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[11].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[11].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[12].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[12].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[12].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[13].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[13].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[13].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[14].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[14].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[14].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[15].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[15].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[15].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[16].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[16].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[16].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
+
+            <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+                <p className='absolute top-2 right-2 text-xs italic text-gray-400'>flour</p>
+                <img src={flourProducts[17].image} height={200} width={200} objectfit='contain' alt='product image' />
+                <h4 className='my-3'>{flourProducts[17].title}</h4>
+                <h4 className='my-3 font-extrabold'>{flourProducts[17].price}</h4>
+                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+            </div>
         </main>
 
         <Footer />

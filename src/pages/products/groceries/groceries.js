@@ -1,108 +1,131 @@
 import Head from "next/head";
 import React from 'react'
 import Header from "../../../components/Header";
-// import { useRouter } from 'next/router'
+import { useRouter } from 'next/router'
 import Footer from "../../../components/Footer";
 
 const groceries = () => {
-    // const router = useRouter();
+    const router = useRouter();
     
     const groceriesProduct = [
         {
             id: 1,
-            image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/cannedfood-150x150.jpg',
-            title: 'Can Food',
-        },
-        {
-            id: 2,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/ingre.jpg',
             title: 'Spices & Seasonings',
         },
         {
-            id: 3,
+            id: 2,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/ingre.jpg',
             title: 'Cooking Ingredients',
         },
         {
-            id: 4,
+            id: 3,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-palm-oil-gallery-300x300.jpg',
             title: '100% Pure Nigerian Palm Oil',
         },
         {
-            id: 5,
+            id: 4,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/beveragesdrink-150x150.jpg',
             title: 'Beverages',
         },
         {
-            id: 6,
+            id: 5,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/beanpastarice-150x150.jpg',
             title: 'Rice, Pasta & Beans',
         },
         {
-            id: 7,
+            id: 6,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/drinksthumb-149x150.jpg',
             title: 'Drinks',
         },
         {
-            id: 8,
+            id: 7,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-flourthumbnail-300x300.jpg',
             title: 'Garri',
         },
         {
-            id: 9,
+            id: 8,
             image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-nuts-range-300x300.jpg',
             title: 'Snacks',
         },
     ]
 
   return (
-    <div>
+    <div className="bg-gray-100">
         <Head>
         <title>R&G AFROCARRIBEAN FOODS - Groceries</title>
       </Head>
       <Header />
 
-      <h1 className="text-3xl ml-5 mt-5 border-b pb-4">Groceries</h1>
+      <p className='ml-5 italic mt-5 text-xs cursor-pointer'>
+        <span>Home</span>
+        <span className="text-gray-500"> {`>`} </span>
+        <span className="text-rg_pink-light">Groceries</span>
+      </p>
 
-    <main className="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-1 p-5 ">
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./spices-seasonings')}>
-            <img src={groceriesProduct[1].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[1].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./cooking-ingredients')}>
-            <img src={groceriesProduct[2].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[2].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./oil')}>
-            <img src={groceriesProduct[3].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[3].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b p-9' onClick={() => router.push('./beverages')}>
-            <img src={groceriesProduct[4].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[4].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./rice-pasta-beans')}>
-            <img src={groceriesProduct[5].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[5].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./drinks')}>
-            <img src={groceriesProduct[6].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[6].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./garri')}>
-            <img src={groceriesProduct[7].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[7].title}</p>
-         </div>
-         <div className='bg-gray-100 p-5 mt-9 cursor-pointer mx-auto border-b pb-9' onClick={() => router.push('./snacks')}>
-            <img src={groceriesProduct[8].image} width={200} height={200}/>
-            <p className='text-gray-400 hover:text-gray-500 cursor-pointer'>{groceriesProduct[8].title}</p>
-         </div>
+      <h1 className="text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black">Groceries</h1>
+
+    <main className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto bg-gray-200">
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[0].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[0].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./spices-seasonings')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[1].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[1].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./cooking-ingredients')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[2].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[2].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./oil')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[3].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[3].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./beverages')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[4].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[4].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./rice-pasta-beans')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[5].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[5].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./drinks')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[6].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[6].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./garri')}>View Product</button>
+        </div>
+
+        <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
+            <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
+            <img src={groceriesProduct[7].image} height={200} width={200} objectfit='contain' alt='product image' />
+            <h4 className='my-3'>{groceriesProduct[7].title}</h4>
+            <button className='mt-3 view' onClick={() => router.push('./snacks')}>View Product</button>
+        </div>
     </main>
 
-    <div className='mt-9'>
+
     <Footer />
-    </div>
-    
+
     </div>
   )
 }

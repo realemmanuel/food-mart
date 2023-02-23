@@ -2,187 +2,209 @@
 "products": [
     {
         "id":1,
-        "title":"Yam flour (elubo dudu) 4kg",
-        "price":6.99,
-        "description":"Yam flour (Elubo dudu) is use to prepare Àmàlà, which is one of Nigerian local indigenous food. It is native to the Yoruba tribe in the South-western parts of Nigeria. It is made out of sliced, cleaned, dried and then blended into a flour, also called elubo dudu. Yams are white in colour however it will turn yam brown when dried. This gives Yam flour (Elubo dudu) / Àmàlà its colour. Yam flour (Elubo dudu) / Àmàlà is from Western Africa and eaten mostly by the Yoruba people in Nigeria.",
-        "category":"flour",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/08/rg-afro-caribbean-yamflour_4kg.jpg",
+        "title":"smoked catfish",
+        "price":0.00,
+        "description":"Smoked Catfish",
+        "category":"fish, meat & snail",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":2,
-        "title":"Alum Stone 150g",
+        "title":"smoked mackerel",
         "price":0.00,
-        "description":"Alum Stone 150g",
-        "category":"flour",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods_alum_stones.jpg",
+        "description":"smoked mackerel",
+        "category":"fish, meat & snail",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":3,
-        "title":"Elubo Lafu / Cassava flour – 20 Kg",
+        "title":"dried stockfish",
         "price":0.00,
-        "description":"Elubo Lafu / Cassava flour meal is made by boiling starchy cassava then pounding into a delicious smooth mass. Elubo Lafu / Cassava flour is a staple food common in many countries in Central Africa and West Africa such as Nigeria, Ghana, Cote D’Ivoire, Guinea, Sierra Leone, Liberia, Benin, Togo, the Central African Republic and Gabon, and is also found in the Caribbean. R&G Afro-Caribbean Foods, Fufu flour is made from 100% cassava chips grinded to smooth cassava flour produced under free from contaminants such as microorganisms and chemicals.",
-        "category":"flour",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-elubo-lafu-20kg.jpg",
+        "description":"dried stockfish",
+        "category":"fish, meat & snail",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":4,
-        "title":"Fufu flour – 20 Kg",
+        "title":"ground crayfish ",
         "price":0.00,
-        "description":"Fufu flour meal is made by boiling starchy cassava then pounding into a delicious smooth mass. Fufu flour is a staple food common in many countries in Central Africa and West Africa such as Nigeria, Ghana, Cote D’Ivoire, Guinea, Sierra Leone, Liberia, Benin, Togo, the Central African Republic and Gabon, and is also found in the Caribbean. R&G Afro-Caribbean Foods, Fufu flour is made from 100% cassava chips grinded to smooth cassava flour produced under free from contaminants such as microorganisms and chemicals.",
-        "category":"flour",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-fufu-flour-1-e1596043565746.jpg",
+        "description":"ground crayfish ",
+        "category":"fish, meat & snail",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":5,
-        "title":"Garri Ijebu – 20 Kg",
+        "title":"50cl Nigeria fanta",
         "price":0.00,
-        "description":"Ijebu Garri is one of the varieties of Garri in west Africa, it is also referred to as Ijebu Gari, Garri Ijebu or Gari Ijebu. Ijebu Garri is produced by the Yoruba people also referred to as part of the Oduduwa Kingdom now part of Nigeria. Garri or gari is made from dried grated cassava (manioc) flour, commonly known as Garri or GariIt has a pleasantly sour taste, Ijebu Garri is great for soaking when you add cold water, some people prefer to add milk, sugar, groundnut, peanut or cashew nut to the Ijebu Garri for maximum enjoyment. It is quite refreshing especially during the summer season.Ijebu Garri could also be used to prepare Ẹ̀bà when added to a bowl of boiled water.Ẹ̀bà is a staple food mainly eaten in the West African sub-region, particularly in some parts of Ghana and Nigeria.",
-        "category":"flour",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-ijebu-garri.jpg",
+        "description":"I50cl Nigeria fanta",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":6,
-        "title":"Ground Red Hot Chili Pepper",
+        "title":"50cl Nigeria coke",
         "price":1.99,
-        "description":"Ground Red Hot Chili Pepper. Weight – 100g",
-        "category":"flour",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-ground-hotpepper-ver2.jpg",
+        "description":"50cl Nigeria coke",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":7,
-        "title":"Meat – Ponmo",
+        "title":"33cl Maltina bottle",
         "price":0.00,
-        "description":"Meat – Ponmo",
-        "category":"fish, meat & snail",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-cowskin-1.jpg",
+        "description":"33cl Maltina bottle",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":8,
-        "title":"Fish",
+        "title":"50cl Lacasera",
         "price":0.00,
-        "description":"Fish Products",
-        "category":"fish, meat & snail",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-catfish.jpg",
+        "description":"50cl Lacasera",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":9,
-        "title":"Milo Nestle – 500g",
-        "price":4.99,
-        "description":"Milo Nestle (Nigeria) 500g",
-        "category":"beverages",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/milo-1.jpg",
+        "title":"Palm wine",
+        "price":0.00,
+        "description":"Palm wine",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":10,
-        "title":"Lady B Custard Powder 500g",
+        "title":"Trophy",
         "price":0.00,
-        "description":"Lady B Custard Powder 500g",
-        "category":"beverages",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/ladybcustard-1.jpg",
+        "description":"Trophy",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":11,
-        "title":"Geisha Mackerel In Tomato Sauce",
+        "title":"Alomo bitter",
         "price":0.00,
-        "description":"Geisha Mackerel In Tomato Sauce 425g",
-        "category":"groceries",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/Geisha.jpg",
+        "description":"Alomo bitter",
+        "category":"drinks",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":12,
-        "title":"Ghana – Onion Chicken Flavor",
+        "title":"1ltr Nigeria palm oil",
         "price":0.00,
-        "description":"Ghana – Onion Chicken Flavor – Indomie Noodles. Quantity 70g x 40",
-        "category":"pasta",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/onionchickenFlavor-rgafrocaribbeanfoods.jpg",
+        "description":"1ltr Nigeria palm oil",
+        "category":"oil",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":13,
-        "title":"Origin Zero – Non Alcoholic drink",
+        "title":"4litres Ayamase oil",
         "price":0.00,
-        "description":"Origin Zero",
-        "category":"herbal",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/origin-zero.jpg",
+        "description":"4litres Ayamase oil",
+        "category":"oil",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":14,
-        "title":"R & G Corn Starch",
+        "title":"Ghana oil",
         "price":0.00,
-        "description":"R & G Corn Starch",
-        "category":"ethnic foods",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-corn-starch-1.jpg",
+        "description":"Ghana oil",
+        "category":"oil",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":15,
-        "title":"R & G Dried Iru",
+        "title":"10litres KTC oil",
         "price":0.00,
-        "description":"R & G Dried Iru",
-        "category":"food ingredients",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-dried_iru.jpg",
+        "description":"10 litres KTC oil",
+        "category":"oil",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":16,
-        "title":"R & G Dried Ugu Leaves",
+        "title":"20kg yam flour",
         "price":0.00,
-        "description":"R & G Dried Ugu Leaves",
-        "category":"dried vegetables",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-dried_ugu-leaves..jpg",
+        "description":"20kg yam flour",
+        "category":"flour",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}
     },
     {
         "id":17,
-        "title":"R & G Groundnut",
+        "title":"5kg Ijebu gari",
         "price":0.00,
-        "description":"R & G Groundnut",
-        "category":"snacks",
-        "image":"https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-groundnut-2.jpg",
+        "description":"5kg Ijebu gari",
+        "category":"flour",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
+        "rating":{
+            "rate":5.0,
+            "count":120}
+    },
+    {
+        "id":18,
+        "title":"10kg pounded yam",
+        "price":0.00,
+        "description":"10kg pounded yam",
+        "category":"flour",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
+        "rating":{
+            "rate":5.0,
+            "count":120}
+    },
+    {
+        "id":19,
+        "title":"20kg cassava flour (Lafun)",
+        "price":0.00,
+        "description":"20kg cassava flour (Lafun)",
+        "category":"flour",
+        "image":"https://www.rosemacsales.com/assets/images/no_image.png",
         "rating":{
             "rate":5.0,
             "count":120}

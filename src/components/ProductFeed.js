@@ -52,7 +52,7 @@ const ProductFeed = ({ products }) => {
 
 <h1 className="text-rg_pink-light text-3xl ml-5 mt-5 border-b pb-4 font-mono font-black md:col-span-full">Featured Products</h1>
 
-{products.slice(11, 15).map(({ id, title, price, description, category, image }) => (
+{products.slice(11, 19).map(({ id, title, price, description, category, image }) => (
         <Product
           key={id}
           id={id}

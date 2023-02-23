@@ -61,42 +61,41 @@ const Header = () => {
 
         {/* Bottom nav */}
         <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
-        <Link href="/products/all-products" legacyBehavior passHref>
+        <Link href="/products/all-products">
             <p className='link flex items-center sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>
               <MenuIcon className='h-6 mr-1' />
               All
             </p>
         </Link>
-
-            <Link href="/products/groceries/groceries" legacyBehavior passHref>
-              <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Groceries</p>
+            <Link href="/products/groceries">
+              <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-500'>Groceries</p>
             </Link>
             
-          <Link href="/products/ethnic-foods/ethnic-foods" legacyBehavior passHref>
+          <Link href="/products/ethnic-foods/ethnic-foods">
             <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Ethnic Foods</p>
           </Link>
 
-          <Link href="/products/groceries/oil" legacyBehavior passHref>
+          <Link href="/products/groceries/oil">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Oil</p>
           </Link>
 
-          <Link href="/products/fish-meat-snail/fish-meat-snail" legacyBehavior passHref>
+          <Link href="/products/fish-meat-snail/fish-meat-snail">
             <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Fish, Meat & Snail</p>
           </Link>
 
-          <Link href="/products/groceries/foods" legacyBehavior passHref>
+          <Link href="/products/groceries/foods">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Foods </p>
           </Link>
 
-          <Link href="/products/groceries/snacks" legacyBehavior passHref>
+          <Link href="/products/groceries/snacks">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Snack </p>
             </Link>
 
-          <Link href="/products/groceries/drinks" legacyBehavior passHref>
+          <Link href="/products/groceries/drinks">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Drinks </p>
             </Link>
     
-          <Link href="/products/flour/flour" legacyBehavior passHref>
+          <Link href="/products/flour/flour">
             <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Flour </p>
           </Link>
         </div>

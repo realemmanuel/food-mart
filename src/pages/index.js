@@ -27,7 +27,7 @@ export default function Home({ products } ) {
 
 
 export async function getServerSideProps(context) {
-  const products = await fetch('https://www.jsonkeeper.com/b/XCVR').then(
+  const products = await fetch('https://www.jsonkeeper.com/b/DW2Q').then(
     (res) => res.json()
   );
 

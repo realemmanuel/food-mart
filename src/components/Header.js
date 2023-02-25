@@ -83,7 +83,7 @@ const Header = () => {
             <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Fish, Meat & Snail</p>
           </Link>
 
-          <Link href="products/food">
+          <Link href="/products/food">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Foods </p>
           </Link>
 
@@ -95,7 +95,7 @@ const Header = () => {
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Drinks </p>
             </Link>
     
-          <Link href="products/flour">
+          <Link href="/products/flour">
             <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Flour </p>
           </Link>
         </div>

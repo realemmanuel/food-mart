@@ -15,7 +15,6 @@ const Header = () => {
   const router = useRouter();
   const items = useSelector(selectItems);
 
-
   return (
     <header>
       <img src="https://i.ibb.co/xCGRp0w/R-AND-G.gif" alt="" />
@@ -67,11 +66,12 @@ const Header = () => {
               All
             </p>
         </Link>
-            <Link href="/products/groceries">
-              <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-500'>Groceries</p>
-            </Link>
             
-          <Link href="/products/ethnic-foods/ethnic-foods">
+        <Link href="/products/groceries">
+              <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-500'>Groceries</p>
+        </Link>
+            
+          <Link href="/products/ethnic-foods">
             <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Ethnic Foods</p>
           </Link>
 
@@ -79,11 +79,11 @@ const Header = () => {
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Oil</p>
           </Link>
 
-          <Link href="/products/fish-meat-snail/fish-meat-snail">
+          <Link href="/products/fish-meat-snail">
             <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Fish, Meat & Snail</p>
           </Link>
 
-          <Link href="/products/groceries/foods">
+          <Link href="products/food">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Foods </p>
           </Link>
 
@@ -95,7 +95,7 @@ const Header = () => {
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Drinks </p>
             </Link>
     
-          <Link href="/products/flour/flour">
+          <Link href="products/flour">
             <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Flour </p>
           </Link>
         </div>

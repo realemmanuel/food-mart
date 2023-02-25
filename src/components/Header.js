@@ -59,7 +59,7 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9' onClick={() => router.push('/')}>
+        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9'>
         <Link href="/products/all-products">
             <p className='link flex items-center sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>
               <MenuIcon className='h-6 mr-1' />

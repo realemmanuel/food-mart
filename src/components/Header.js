@@ -59,7 +59,7 @@ const Header = () => {
         </div>
 
         {/* Bottom nav */}
-        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9'>
+        <div className='flex items-center bg-rg_pink-light text-white text-sm space-x-4 h-11  pl-6 justify-center lg:space-x-9 shadow-md'>
         <Link href="/products/all-products">
             <p className='link flex items-center sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>
               <MenuIcon className='h-6 mr-1' />
@@ -75,7 +75,7 @@ const Header = () => {
             <p className='link hidden sm:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Ethnic Foods</p>
           </Link>
 
-          <Link href="/products/groceries/oil">
+          <Link href="/products/oil">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Oil</p>
           </Link>
 
@@ -87,16 +87,24 @@ const Header = () => {
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Foods </p>
           </Link>
 
-          <Link href="/products/groceries/snacks">
+          <Link href="/products/snacks">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Snack </p>
             </Link>
 
-          <Link href="/products/groceries/drinks">
+          <Link href="/products/drinks">
             <p className='link sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Drinks </p>
             </Link>
     
           <Link href="/products/flour">
-            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Flour </p>
+            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Flour</p>
+          </Link>
+
+          <Link href="/products/beverages">
+            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Beverages</p>
+          </Link>
+
+          <Link href="/products/cooking-ingredient">
+            <p className='link hidden lg:inline-flex sm:p-0 xl:pl-2 xl:pr-2 xl:pt-3 xl:pb-3 hover:bg-white hover:text-black transition-all duration-200'>Cooking Ingredients</p>
           </Link>
         </div>
     </header>

@@ -1,5 +1,5 @@
-import Head from "next/head";
 import React from 'react'
+import Head from "next/head";
 import { useRouter } from 'next/router'
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
@@ -70,56 +70,56 @@ const groceries = () => {
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[0].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[0].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./spices-seasonings')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/spices-seasonings')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[1].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[1].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./cooking-ingredients')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/cooking-ingredient')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[2].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[2].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./oil')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/oil')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[3].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[3].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./beverages')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products//beverages')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[4].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[4].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./rice-pasta-beans')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/rice-pasta-beans')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[5].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[5].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./drinks')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/drinks')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[6].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[6].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./garri')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/garri')}>View Product</button>
         </div>
 
         <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>
             <p className='absolute top-2 right-2 text-xs italic text-gray-400'>groceries</p>
             <img src={groceriesProduct[7].image} height={200} width={200} objectfit='contain' alt='product image' />
             <h4 className='my-3'>{groceriesProduct[7].title}</h4>
-            <button className='mt-3 view' onClick={() => router.push('./snacks')}>View Product</button>
+            <button className='mt-3 view' onClick={() => router.push('/products/snacks')}>View Product</button>
         </div>
     </main> 
 

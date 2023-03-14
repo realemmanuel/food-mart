@@ -11,35 +11,30 @@ const snacks = () => {
       image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-groundnut-2-600x600.jpg',
       title: 'R&G Groundnut',
       price: '£0.00',
-      buttonText: 'Read More',
     },
     {
       id: 2,
       image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-kulikuli2-300x300.jpg',
       title: 'R&G Kuli Kuli',
       price: '£0.00',
-      buttonText: 'Read More',
     },
     {
       id: 3,
       image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-non_spicy_cashewnut-300x300.jpg',
       title: 'R&G Non Spicy Cashewnut',
       price: '£0.00',
-      buttonText: 'Read More',
     },
     {
       id: 4,
       image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/rg-afro-caribbean-foods-spicy-cashewnut-600x600.jpg',
       title: 'R&G Spicy Cashew nut',
       price: '£0.00',
-      buttonText: 'Read More',
     },
     {
       id: 5,
       image: 'https://www.rgafrocaribbeanfoods.com/wp-content/uploads/2020/07/tomtom-300x300.jpg',
       title: 'R&G Tom Tom',
       price: '£0.00',
-      buttonText: 'Read More',
     },
   ]
   return (

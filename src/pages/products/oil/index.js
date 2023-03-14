@@ -2,8 +2,10 @@ import React from 'react'
 import Head from 'next/head'
 import Header from '../../../components/Header'
 import Footer from '../../../components/Footer'
+import { useRouter } from 'next/router'
 
 const oil = () => {
+  const router = useRouter();
   const oilProducts = [
     {
       id: 1,
@@ -87,7 +89,7 @@ const oil = () => {
                 <img src={oilProducts[0].image} height={200} width={200} objectfit='contain' alt='product image' />
                 <h4 className='my-3'>{oilProducts[0].title}</h4>
                 <h4 className='my-3 font-extrabold'>{oilProducts[0].price}</h4>
-                <button className='mt-3 view' onClick={() => router.push('./')}>View Product</button>
+                <button className='mt-3 view' onClick={() => router.push('/products/oil/1ltr-palmoil')}>View Product</button>
              </div>
 
              <div className='relative flex flex-col m-5 bg-white z-30 p-10 shadow-md hover:shadow-2xl cursor-pointer'>

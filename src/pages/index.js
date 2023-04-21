@@ -8,7 +8,7 @@ export default function Home({ products } ) {
   return (
     <div className="bg-gray-100 w-screen">
       <Head>
-        <title>R&G AFROCARRIBEAN FOODS - WE PRIDE OURSELVES IN SELLING UNIQUE AND QUALITY FOOD PRODUCTS</title>
+        <title>EMMANUEL FOOD-MART</title>
       </Head>
 
       <Header />
